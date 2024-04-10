@@ -4,8 +4,8 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github.jitpack'
-version = '1.0'
+group = 'com.github.Ablexy'
+version = '1.0.0'
 
 android {
     compileSdkVersion 31
@@ -42,8 +42,8 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.jitpack'
-                artifactId = 'android-example'
+                groupId = 'com.github.Ablexy'
+                artifactId = 'android-jitpack-example'
                 version = '1.0'
             }
         }
